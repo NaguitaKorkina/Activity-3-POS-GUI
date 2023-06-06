@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="KINA ARTWORK POINT OF SALE.jnlp">
+  <information>
+    <title>KINA ARTWORK POINT OF SALE</title>
+    <vendor>ADMIN-PC</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="KINA_ARTWORK_POINT_OF_SALE.jar" size="128106" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="Main"  name="KINA ARTWORK POINT OF SALE" />
+  <update check="always"/>
+</jnlp>

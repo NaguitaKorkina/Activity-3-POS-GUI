@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="971.0" prefWidth="1690.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane id="AnchorPane" prefHeight="767.0" prefWidth="1313.0">
+         <children>
+            <StackPane layoutX="28.0" layoutY="92.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp1">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@d2.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="241.0" layoutY="95.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp2">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@d3.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="453.0" layoutY="95.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp3">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@d4.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="28.0" layoutY="329.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp4">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@m2.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="241.0" layoutY="329.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp5">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@m3.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="462.0" layoutY="330.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp6">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@p1.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <Label alignment="CENTER" layoutX="84.0" layoutY="254.0" styleClass="label1" text="HORSE DRAWING" textAlignment="CENTER" />
+            <Label layoutX="283.0" layoutY="254.0" styleClass="label2" text="ROSE DRAWING" />
+            <Label layoutX="496.0" layoutY="254.0" styleClass="label3" text="EYE'S DRAWING" />
+            <Label layoutX="84.0" layoutY="485.0" styleClass="label4" text="MATERIALS" />
+            <Label layoutX="292.0" layoutY="485.0" styleClass="label5" text="PAINT BRUSH" />
+            <Label layoutX="525.0" layoutY="485.0" styleClass="label6" text="OIL PAINT" />
+            <StackPane layoutX="29.0" layoutY="567.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp7">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@p5.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="245.0" layoutY="567.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp8">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@p3.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="466.0" layoutY="567.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp9">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@m1.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <Label layoutX="87.0" layoutY="725.0" styleClass="label7" text="PAINT #2" />
+            <Label layoutX="323.0" layoutY="725.0" styleClass="label8" text="PAINT #3" />
+            <Label layoutX="524.0" layoutY="725.0" styleClass="label9" text="MATERIALS #2" />
+            <Label layoutX="29.0" layoutY="275.0" styleClass="lbl" text="P2,0000.00" />
+            <Label layoutX="243.0" layoutY="275.0" styleClass="lbl" text="P4,5000.00" />
+            <Label layoutX="462.0" layoutY="275.0" styleClass="lbl" text="P5,5700.00" />
+            <Label layoutX="27.0" layoutY="506.0" styleClass="lbl" text="P10,0000.00" />
+            <Label layoutX="243.0" layoutY="506.0" styleClass="lbl" text="P5,0000.00" />
+            <Label layoutX="462.0" layoutY="506.0" styleClass="lbl" text="P15,000.00" />
+            <Label layoutX="27.0" layoutY="746.0" styleClass="lbl" text="P10,0000.00" />
+            <Label layoutX="243.0" layoutY="746.0" styleClass="lbl" text="P1,0000.00" />
+            <Label layoutX="462.0" layoutY="746.0" styleClass="lbl" text="P1,5000.00" />
+            <ImageView fitHeight="665.0" fitWidth="1086.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../../../../Downloads/nike-logo-in-clouds-4k-5l.jpg" />
+               </image>
+            </ImageView>
+            <StackPane layoutX="888.0" layoutY="-1.0" prefHeight="509.0" prefWidth="442.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="383.0" styleClass="btn5" text="ORDER NOW" StackPane.alignment="BOTTOM_CENTER">
+                     <StackPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </StackPane.margin>
+                  </Button>
+                  <Pane prefHeight="709.0" prefWidth="442.0">
+                     <children>
+                        <Label layoutX="47.0" layoutY="429.0" styleClass="lbl" text="TOTAL" />
+                        <Label layoutX="310.0" layoutY="419.0" styleClass="lbl" text="P9,015,000" />
+                        <Label layoutX="310.0" layoutY="14.0" prefHeight="21.0" prefWidth="82.0" styleClass="lbl" text="P15,000.00" />
+                        <Label layoutX="221.0" layoutY="14.0" prefHeight="21.0" prefWidth="60.0" styleClass="lbl" text="PRICE" />
+                        <Label layoutX="26.0" layoutY="206.0" styleClass="label1" text="OIL PAINT" />
+                        <Label layoutX="14.0" layoutY="14.0" styleClass="label1" text="ORDER DETAILS" />
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@p1.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="179.0" layoutX="25.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@p4.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="220.0" layoutY="235.0" styleClass="label1" text="PRICE" />
+                        <Label layoutX="32.0" layoutY="385.0" styleClass="label1" text="PAINT #1" />
+                        <Label layoutX="316.0" layoutY="235.0" styleClass="label1" text="P90000.00" />
+                     </children>
+                  </Pane>
+               </children>
+            </StackPane>
+            <StackPane layoutX="666.0" layoutY="96.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp1">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@d5.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <StackPane layoutX="681.0" layoutY="331.0" prefHeight="150.0" prefWidth="200.0" styleClass="sp1">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@p4.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+            <Label layoutX="706.0" layoutY="254.0" styleClass="label1" text="HULK DRAWING" />
+            <Label layoutX="732.0" layoutY="485.0" styleClass="label1" text="PAINT #1" />
+            <Label layoutX="715.0" layoutY="506.0" styleClass="label1" text="P90000.00" />
+            <Label layoutX="714.0" layoutY="275.0" styleClass="label1" text="P3,00000.00" />
+            <Label alignment="CENTER" layoutX="937.0" layoutY="552.0" prefHeight="59.0" prefWidth="331.0" text="KINA ARTWORK">
+               <font>
+                  <Font name="System Bold" size="41.0" />
+               </font>
+            </Label>
+            <Button layoutX="71.0" layoutY="23.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="554.0" styleClass="btn2" text="PAINT">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button layoutX="341.0" layoutY="23.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="121.0" styleClass="btn3" text="DRAWING">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Button>
+            <Button layoutX="607.0" layoutY="23.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="184.0" styleClass="btn1" text="MATERIALS">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </Button>
+         </children></AnchorPane>
+   </center>
+   <bottom>
+      <HBox prefHeight="100.0" prefWidth="200.0" styleClass="bottom" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" />
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" />
+            <Pane layoutX="210.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" />
+            <Pane layoutX="410.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" />
+            <Pane layoutX="610.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" />
+            <Pane layoutX="810.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" />
+            <Pane layoutX="1010.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" />
+            <Pane layoutX="1210.0" layoutY="10.0" prefHeight="100.0" prefWidth="292.0" style="-fx-background-color: black;" />
+         </children></HBox>
+   </bottom>
+   <top>
+      <HBox prefHeight="43.0" prefWidth="1250.0" styleClass="top" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <VBox prefHeight="656.0" prefWidth="198.0" styleClass="left" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="159.0" prefWidth="198.0" style="-fx-background-color: black;" />
+            <Pane prefHeight="150.0" prefWidth="198.0" style="-fx-background-color: white;" />
+            <Pane layoutX="10.0" layoutY="169.0" prefHeight="150.0" prefWidth="198.0" style="-fx-background-color: black;" />
+            <Pane layoutX="10.0" layoutY="319.0" prefHeight="150.0" prefWidth="198.0" style="-fx-background-color: white;" />
+            <Pane layoutX="10.0" layoutY="469.0" prefHeight="218.0" prefWidth="198.0" style="-fx-background-color: black;" />
+         </children>
+      </VBox>
+   </left>
+   <right>
+      <VBox prefHeight="619.0" prefWidth="163.0" styleClass="right" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" />
+            <Pane layoutX="10.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white;" />
+            <Pane layoutX="10.0" layoutY="210.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" />
+            <Pane layoutX="10.0" layoutY="410.0" prefHeight="227.0" prefWidth="163.0" style="-fx-background-color: white;" />
+         </children></VBox>
+   </right>
+</BorderPane>
